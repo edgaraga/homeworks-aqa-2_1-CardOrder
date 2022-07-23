@@ -30,10 +30,8 @@ public class CardOrderTest {
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
 
-
         //driver = new ChromeDriver(); //проверка на открывание страницы для себя
         driver.get("http://localhost:9999");
-
     }
 
     @AfterEach
